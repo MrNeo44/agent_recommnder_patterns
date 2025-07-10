@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "out",
+    "rootDir": "src",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "types": ["node", "vscode"]
+  },
+  "include": ["src"]
+}

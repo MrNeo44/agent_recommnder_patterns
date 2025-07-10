@@ -1,0 +1,30 @@
+[
+  {
+    "smells": [
+      "Constructor extenso"
+    ],
+    "pattern": "Strategy"
+  },
+  {
+    "smells": [
+      "Condicionales anidados",
+      "Constructor extenso"
+    ],
+    "pattern": "Builder"
+  },
+  {
+    "smells": [
+      "Condicionales anidados",
+      "Duplicaci\u00f3n de c\u00f3digo",
+      "Constructor extenso",
+      "Demasiados par\u00e1metros"
+    ],
+    "pattern": "Patr\u00f3n de dise\u00f1o Strategy"
+  },
+  {
+    "smells": [
+      "Uso de 'global' (posible Singleton mal implementado)"
+    ],
+    "pattern": "Singleton"
+  }
+]

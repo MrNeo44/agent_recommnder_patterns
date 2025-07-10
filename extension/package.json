@@ -1,0 +1,36 @@
+{
+  "name": "vscode-bdi-llm-extension",
+  "displayName": "VSCode BDI-LLM Extension",
+  "description": "Extensión para analizar código Python con el agente BDI-LLM",
+  "version": "0.0.1",
+  "publisher": "TuNombre",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [],
+    "tasks": [
+      {
+        "label": "npm: compile",
+        "type": "npm",
+        "script": "compile",
+        "group": "build"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p ."
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "typescript": "^4.5.5",
+    "vscode": "^1.1.37"
+  }
+}
